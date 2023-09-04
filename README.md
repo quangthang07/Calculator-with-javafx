@@ -1,12 +1,18 @@
-# JavaProject
-## Calculator.java
-###### Description
-This is a Calculator app.
-###### Require
-We use javafx to build the UI of calculator app, so you need java8 to run this file
+## Calculator
 
-## BlockObjectBuilding.java
-###### Description
-This is 3D animation app
-###### Require
-We also use javafx to build UI, so you need java8 to run this file
+## Description
+This application is built when I took programming 2 course.
+
+I create an calculator used recursive algorithm.
+
+Let take an example of arithmetic expression ```1 + 3 * (4 - (9 - 2))```
+
+Firstly, I separate operand's privilege like this ```() > * / > + -```
+
+Next, I calculate in order from the most highest to the lowest privilege of expression. In this expression above will (9-2) and recur like that until remain only on number.
+
+## Run code
+Because only java8 support for javafx, so use need switch to java8 before run ```javac Calculator.java```
+
+## Result
+![result image](./result.png)
